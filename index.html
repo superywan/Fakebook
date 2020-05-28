@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>fakebook - log In or Sign Up</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/favicon.png" />
+</head>
+
+<body>
+  <div id="navwrapper">
+    <div id="navbar">
+      <form method="POST" action="loginfakebook.php">
+        <table class="loginform">
+          <tr>
+            <td class="loginlabel">Email or Phone</td>
+            <td class="loginlabel">Password</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" name="phoneORemail" class="logininput" required />
+            </td>
+            <td><input type="password" name="password" class="logininput" required /></td>
+            <td>
+              <input type="submit" name="Submit" value="log In" id="loginsubmit" />
+            </td>
+          </tr>
+        </table>
+      </form>
+      <h1 class="logowrapper">fakebook</h1>
+    </div>
+  </div>
+
+  <div id="contentwrapper">
+    <div id="content">
+      <div id="leftside">
+        <div class="leftside-title bolder">
+          Connect with friends and the <br />world around you on Fakebook.
+        </div>
+
+        <div class="leftside-content">
+          <img src="img/seephoto.png" alt="See photos and updates" class="icon leftside-display" />
+          <div class="leftside-display">
+            <span class="leftside-bold">See photos and updates</span>
+            <span class="leftside-regular leftside-display">
+              from friends in News Feed
+            </span>
+          </div>
+        </div>
+
+        <div class="leftside-content">
+          <img src="img/sharephoto.png" alt="Share what's new" class="icon leftside-display" />
+          <div class="leftside-display">
+            <span class="leftside-bold">Share what's new</span>
+            <span class="leftside-regular leftside-display">
+              in your life on your timeline
+            </span>
+          </div>
+        </div>
+
+        <div class="leftside-content">
+          <img src="img/findphoto.png" alt="Find more" class="icon leftside-display" />
+          <div class="leftside-display">
+            <span class="leftside-bold">Find more</span>
+            <span class="leftside-regular leftside-display">
+              of what you're looking for with graph search
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div id="rightside">
+        <div class="rightside-bold bolder">Sign Up</div>
+        <div class="rightside-regular bolder">It’s quick and easy.</div>
+        <form method="post" action="registerfakebook.php">
+          <input type="text" name="first_name" class="registerinput register-firstrow" placeholder="First name"
+            required />
+          <input type="text" name="last_name" class="registerinput register-firstrow float-right"
+            placeholder="Last name" required />
+          <input type="text" name="phoneORemail" class="registerinput register-row" placeholder="Email or mobile number"
+            required />
+          <input type="password" name="password" class="registerinput register-row" placeholder="New password"
+            required />
+          <div class="radio-bold">Birthday</div>
+          <input type="date" name="birth" class="registerinput register-row" required />
+          <div class="radio-bold">Gender</div>
+          <input type="radio" id="fem" name="gender" value="female" required />
+          <label for="fem" class="radio">Female</label>
+          <input type="radio" id="male" name="gender" value="male" required />
+          <label for="male" class="radio">Male</label>
+          <input type="radio" id="other" name="gender" value="other" required />
+          <label for="other" class="radio">Other</label>
+          <button type="submit" name="register-submit" class="register-submit">
+            Sign Up
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

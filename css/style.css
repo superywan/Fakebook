@@ -1,0 +1,274 @@
+/* -------------------HTML ELEMENTS--------------------- */
+body {
+  margin: 0;
+  font-family: "Lucida Grande", tahoma, verdana, arial, sans-serif;
+  line-height: 1.28;
+}
+
+h1 {
+  font-family: tahoma, verdana, arial, sans-serif;
+  font-size: 38px;
+  letter-spacing: 0.05px;
+  margin: 0;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bolder {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizelegibility;
+  color: #333;
+}
+
+#button {
+  position: relative;
+  width: 45px;
+  height: 18px;
+  background-color: #5b72a9;
+  border: 1px solid #999;
+  border-color: #8b9dc3 #2f477a #29447e #1a356e;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+/* -------------------TOP NAV--------------------- */
+
+#navwrapper {
+  width: 100%;
+  height: 82px;
+  background-color: #3b5998;
+}
+
+#navbar {
+  margin: 0 auto;
+  width: 980px;
+  height: 59px;
+}
+
+/* -------------------LOGIN FORM--------------------- */
+.loginform {
+  float: right;
+  margin-top: 12px;
+}
+
+.loginlabel {
+  color: #fff;
+  font-size: 11px;
+  width: 164px;
+  cursor: pointer;
+}
+
+.logininput {
+  background-color: rgb(233, 240, 254);
+  border-color: #1d2a5b;
+  margin: 0;
+  height: 15px;
+  width: 142px;
+  border: 1px solid #bdc7d8;
+  margin: 0;
+  padding: 3px;
+}
+
+#loginsubmit {
+  background-color: rgb(65, 104, 178);
+  border-color: rgb(42, 72, 125);
+  color: white;
+}
+
+.hover:hover {
+  text-decoration: underline;
+}
+
+.logowrapper {
+  display: block;
+  padding: 23px 0;
+}
+
+/* -------------------LEFT SIDE--------------------- */
+#contentwrapper {
+  width: 100%;
+  height: 606px;
+  background-color: #edf0f5;
+}
+
+#content {
+  margin: 0 auto;
+  width: 980px;
+  padding-top: 20px;
+}
+
+#leftside {
+  width: 565px;
+  display: inline-block;
+}
+
+.leftside-display {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.leftside-title {
+  width: 409px;
+  height: 72px;
+  padding: 42px 0 24px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #333;
+  display: inline-block;
+}
+
+.leftside-content {
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.icon {
+  margin-right: 20px;
+  width: 55px;
+}
+
+.leftside-bold {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.leftside-regular {
+  font-size: 15px;
+  color: #666;
+  margin-left: 10px;
+}
+
+/* -------------------RIGHT SIDE------------------- */
+#rightside {
+  display: inline-block;
+  vertical-align: top;
+  width: 399px;
+  height: 200px;
+  float: right;
+}
+
+.rightside-bold {
+  font-size: 36px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.rightside-regular {
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+/* -------------------REGISTER FORM------------------- */
+.registerinput {
+  display: inline-block;
+  font-size: 18px;
+  padding: 8px 10px;
+  border: 1px solid #bdc7d8;
+  -webkit-border-radius: 5px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.register-firstrow {
+  width: 172px;
+}
+
+.register-row {
+  width: 377px;
+}
+
+.float-right {
+  float: right;
+}
+
+.radio-bold {
+  font-size: 15px;
+  font-weight: 900;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(144, 148, 155);
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 5px;
+}
+
+.radio {
+  font-size: 18px;
+  color: #141823;
+  cursor: pointer;
+  padding: 0 10px 0 3px;
+  margin-right: 4px;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.register-submit {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  background: -webkit-linear-gradient(#67ae55, #578843);
+  -webkit-box-shadow: inset 0 1px 1px #a4e388;
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.register-submit :hover {
+  background: -webkit-linear-gradient(#79bc64, #578843);
+}
+
+#registerH1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 200px;
+  color: rgb(51,51,51);
+}
+
+.registerP {
+  font-size: 15px;
+  text-align: center;
+  color: rgb(51,51,51);
+}
+
+#registerbutton {
+  background-color: rgb(65, 104, 178);
+  border-color: rgb(42, 72, 125);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: block;
+  width: auto;
+  margin: 20px auto 0px auto;
+}
+
+#loginH1 {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 200px;
+  color: rgb(51,51,51);
+}
+
+#logout {
+  background-color: rgb(65, 104, 178);
+  border-color: rgb(42, 72, 125);
+  color: white;
+  margin-top: 30px;
+  margin-right: 300px;
+  float: right;
+  border-radius: 5px;
+  display: block;
+  width: auto;
+}
