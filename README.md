@@ -1,4 +1,4 @@
-#  Clone Coding Facebook Login Form
+#  Clone Coding of Facebook Login Form with PHP and MySQL
 ---
 This login form is built with PHP language for CS85 PHP Programming course final project.
 
